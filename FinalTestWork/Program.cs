@@ -33,7 +33,7 @@ string[] CreateArray(int size)
     return arr;
 }
 
-void NewArray(string[] arr)
+void ReducedArray(string[] arr)
 {
     string str = String.Empty;
     int count = 3;
@@ -61,6 +61,6 @@ void PrintArray(string[] arr)
 int length = Prompt("Введите длину массива: ");
 string[] array = CreateArray(length);
 PrintArray(array);
-NewArray(array);
+ReducedArray(array);
 Console.WriteLine("Массив из строк, длина которых меньше либо равна 3 символам:");
 PrintArray(array);
